@@ -1,0 +1,7 @@
+Database:
+  MySQL:
+    host: "localhost"
+    port: 3306
+    database: "RoseCoins"
+    username: "root"
+    password: ""

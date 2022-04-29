@@ -1,0 +1,24 @@
+Messages:
+  Join:
+    join_message: "&fWelcome, you have currently: &d%rosecoins_coins% %symbol%"
+  File:
+    file_creating: "&aCreating file... please wait"
+    file_created: "&cSuccesfully created the file, please re-join to the server."
+    file_reloaded: "&aSuccesfully reloaded the config file."
+  Coins:
+    coins_added: "&aSuccesfully added %coins_target% %symbol% to the player %player_target%."
+    coins_removed: "&aSuccesfully removed %coins_target% %symbol% to the player %player_target%."
+    coins_seted: "&aSuccesfully seted %coins_target% %symbol% to the player %player_target%."
+    coins_reseted: "&aSuccesfully reseted the coins to the player %player_target%."
+    coins_check: "&fThe player %player_target% currently have: &d%coins_target% %symbol%"
+    balance_check: "&dYour currently have %coins% %symbol%"
+    balance_check_others: "&dThe player %player_target% currently have %coins_target% %symbol%"
+    balance_error_not_exist: "&cError, the player %player_target% does not exist in the playerdata file."
+    pay_sended: "&aSuccesfully, You sent %coins_target% %symbol% to the player %player_target%."
+    pay_received: "&aYou now have %coins_target% %symbol% by the player %player_target%."
+    pay_error_enough: "&cSorry, you don't have enough coins."
+    pay_error_yourself: "&cHey, you cannot send coins to yourself."
+    command_error_characters: "&cYou cannot use characters in the coins."
+    command_disabled_message: "&dSorry, this command is disabled for a admin!"
+  General:
+    message_cancel_console: "&cYou cannot execute commands in the console."

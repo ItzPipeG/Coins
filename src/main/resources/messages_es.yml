@@ -1,0 +1,24 @@
+Messages:
+  Join:
+    join_message: "&fBienvenido, actualmente tienes: &d%rosecoins_coins% %symbol%"
+  File:
+    file_creating: "&aCreando archivo de configuración... por favor espere..."
+    file_created: "&cArchivo de configuración creado correctamente! por favor ingresa de nuevo al servidor."
+    file_reloaded: "&aArchivo de configuración refrescado correctamente."
+  Coins:
+    coins_added: "&aAgregadas %coins_target% %symbol% al jugador %player_target% correctamente."
+    coins_removed: "&aEliminadas %coins_target% %symbol% al jugador %player_target% correctamente."
+    coins_seted: "&aColocadas %coins_target% %symbol% al jugador %player_target% correctamente."
+    coins_reseted: "&aReseteadas las monedas del jugador %player_target% correctamente."
+    coins_check: "&fEl jugador %player_target% actualmente tiene: &d%coins_target% %symbol%"
+    balance_check: "&dActualmente tienes %coins% %symbol%"
+    balance_check_others: "&dEl jugador %player_target% actualmente tiene %coins_target% %symbol%"
+    balance_error_not_exist: "&cError, el jugador %player_target% no existe en el archivo de jugadores."
+    pay_sended: "&aEnviaste %coins_target% %symbol% al jugador %player_target% correctamente."
+    pay_received: "&aRecibiste %coins_target% %symbol% del jugador %player_target%."
+    pay_error_enough: "&cLo siento, no tienes las suficientes monedas."
+    pay_error_yourself: "&cOops, no te puedes enviar monedas a ti mismo."
+    command_error_characters: "&cNo puedes usar caracteres en este apartado."
+    command_disabled_message: "&cLo sentimos, este comando está desactivado por un administrador."
+  General:
+    message_cancel_console: "&cNo puedes enviar comandos en la consola."

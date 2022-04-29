@@ -1,0 +1,62 @@
+######################################################################################################################################
+# RoseCoins | Development
+# Here you can edit the configuration of the plugin.
+# Remember if you change the version you need restore this file
+# If you need support please contact in the discord: discord.gg/yW6d9EW7Eq
+#
+# Types of database: MySQL, FILE
+#
+# Currently mobs available: ZOMBIE, SKELETON, SPIDER, CAVE_SPIDER, BLAZE, CREEPER, ENDER_DRAGON, ENDERMAN, BAT, CHICKEN, COW, GHAST
+# HORSE, IRON_GOLEM, MAGMA_CUBE, MUSHROOM_COW, OCELOT, PIG, PIG_ZOMBIE, SHEEP, SILVERFISH, SLIME, SNOWMAN, SQUID, VILLAGER, WITCH
+# WITHER, WOLF.
+######################################################################################################################################
+Config:
+  General:
+    default_language: EN # Currently we have the types of languages: EN, ES
+    default_coins: 500
+    console_execute_commands: false
+    coin_symbol: '⛁'
+    File:
+      type: FILE
+    Commands:
+      Enabled:
+        add: true
+        remove: true
+        set: true
+        reset: true
+        check: true
+        pay: true
+        balance: true
+        withdraw: true
+      Permissions:
+        add: "rosecoins.command.add"
+        remove: "rosecoins.command.remove"
+        set: "rosecoins.command.set"
+        reset: "rosecoins.command.reset"
+        check: "rosecoins.command.check"
+        pay: "rosecoins.command.pay"
+        balance: "rosecoins.command.balence"
+        balance_others: "rosecoins.command.balance.others"
+        withdraw: "rosecoins.command.withdraw"
+    Join:
+      send_message_join: true
+      send_message_creating_file: true
+      level_equal_to_coins: true
+    Timer:
+      earn_time: 120
+      earn_balance: 500
+      earn_message: "&cYou currently earned %earned_coins% %symbol% because you have %earn_time% seconds online."
+  Rewards:
+    Kill_Mobs:
+      SPIDER:
+        enabled: true
+        reward: 350
+      ZOMBIE:
+        enabled: true
+        reward: "150"
+      SKELETON:
+        enabled: true
+        reward: "250"
+      CREEPER:
+        enabled: true
+        reward: "250"

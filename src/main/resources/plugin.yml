@@ -1,0 +1,14 @@
+name: RoseCoins
+version: 1.2.0
+main: net.rosedev.rosecoins.Main
+author: [ItzPipeG]
+
+commands:
+  coins:
+    description: The command coins
+    aliases: [rosecoins]
+  pay:
+    description: The command pay
+  balance:
+    description: The command balance
+    aliases: [bal, money]
